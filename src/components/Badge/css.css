@@ -1,0 +1,12 @@
+.component-badge-main{
+    border-radius: 50%;
+    background: var(--main-color);
+    color: var(--white-color);
+    font-size: 12px;
+    font-weight: 600;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}

@@ -1,0 +1,57 @@
+.page-detail-main{
+    position: relative;
+}
+.page-detail-body{
+    margin: 5px;
+    box-shadow: 0px 0px 10px -5px #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+.page-detail-img{
+    height: 350px;
+    width: 100%;
+    object-fit: contain;
+}
+.page-detail-title{
+margin: 0px 20px;
+}
+.page-detail-name{
+font-size: 20px;
+font-weight: 600;
+}
+.page-detail-price{
+font-size: 20px;
+font-weight: 600;
+color: var(--main-color);
+flex: 1;
+}
+.page-detail-button{
+    width: 45px;
+    font-size: 25px;
+    margin: 0px 5px;
+    display: grid;
+    align-self: center;
+    text-align: center;
+    box-shadow: 0px 0px 10px -5px #000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.page-detail-button.plus{
+    background: var(--main-color);
+    color: var(--white-color);
+}
+.page-detail-button.minus{
+    background: var(--white-color);
+    color: var(--black-color);
+}
+.page-detail-description{
+    margin: 10px 20px;
+    border-top: 1px solid #0000005d;
+    border-bottom: 1px solid #0000005d;
+    padding: 10px;
+}
+.page-detail-description span{
+    font-size: 15px;
+    font-weight: 300;
+}

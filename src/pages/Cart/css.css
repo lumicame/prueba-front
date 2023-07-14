@@ -1,0 +1,31 @@
+.page-cart-main{
+    box-shadow: 0px 0px 10px -5px #000;
+    border-radius: 5px;
+    margin: 5px;
+}
+.component-cart-item-main{
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid #0000002e;
+    padding: 5px;
+}
+.page-cart-body{
+    padding-bottom: 10px;
+}
+.component-cart-item-badge{
+align-self: center;
+margin-right: 10px;
+margin-left: 10px;
+}
+.component-cart-item-img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.page-cart-total{
+    text-align: right;
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}

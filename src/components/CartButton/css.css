@@ -1,0 +1,31 @@
+.component-cart-button-main{
+background: var(--main-color);
+border-radius: 5px;
+padding: 5px 10px;
+width: auto;
+display: flex;
+cursor: pointer;
+}
+.component-cart-button-main.cart{
+    background: var(--main-opacity-color);
+    border-top-right-radius:0px ;
+    border-bottom-right-radius:0px ;
+}
+.component-cart-button-close{
+    background: var(--main-color);
+    border-radius: 0px 5px 5px 0px ;
+    padding: 5px 10px;
+    width: auto;
+    display: flex;
+    cursor: pointer; 
+}
+.component-cart-button-icon{
+    fill: var(--white-color);
+    width: 22px;
+}
+.component-cart-button-price{
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 5px;
+}
